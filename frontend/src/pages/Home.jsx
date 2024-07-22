@@ -9,17 +9,17 @@ const Home = () => {
     <div>
       <Categoryproduct/>
       <SlidingBanner/>
-      <Horizontalwiseproduct category={"camera"} heading={'TOP airpods'}/>
-      <Horizontalwiseproduct category={"camera"} heading={"Popular's Earphones"}/>
-      <VerticleProducts category={"camera"} heading={"Best Mobile's"}/>
-      <VerticleProducts category={"camera"} heading={" Mouse"}/>
-      <VerticleProducts category={"camera"} heading={" Television"}/>
+      <Horizontalwiseproduct category={"airpode"} heading={'TOP airpods'}/>
+      <Horizontalwiseproduct category={"earphone"} heading={"Popular's Earphones"}/>
+      <VerticleProducts category={"mobile"} heading={"Best Mobile's"}/>
+      <VerticleProducts category={"mouse"} heading={" Mouse"}/>
+      <VerticleProducts category={"television"} heading={" Television"}/>
       <VerticleProducts category={"camera"} heading={" camera & Photography"}/>
-      <VerticleProducts category={"camera"} heading={"Wired Earphones"}/>
-      <VerticleProducts category={"camera"} heading={"primium Bluetooth Speakers"}/>
-      <VerticleProducts category={"camera"} heading={"refrigerator"}/>
-      <VerticleProducts category={"camera"} heading={"printers"}/>
-      <VerticleProducts category={"camera"} heading={"Trimmers"}/>
+      <VerticleProducts category={"processor"} heading={"high speed processor"}/>
+      <VerticleProducts category={"speaker"} heading={"primium Bluetooth Speakers"}/>
+      <VerticleProducts category={"refrigerator"} heading={"refrigerator"}/>
+      <VerticleProducts category={"printer"} heading={"printers"}/>
+      <VerticleProducts category={"trimmer"} heading={"Trimmers"}/>
 
       
     </div>

@@ -69,7 +69,7 @@ const Horizontalwiseproduct = ({category , heading}) => {
             return(
                 <Link to={"product/"+product?._id} className='w-full min-w-[280px] md:min-w-[320px] max-w-[280px] md:max-w-[320px] h-36 bg-white rounded-sm shadow flex'>
                   <div className='bg-slate-200 h-full p-4 min-w-[120px] md:min-w-[145px] '>
-                    <img src={product?.productImage[0]} className='object-scale-down h-full hover:scale-125 transition-all cursor-pointer'/>
+                    <img src={product?.productImage[0]} className='object-scale-down h-full hover:scale-125 transition-all cursor-pointer mix-blend-multiply'/>
     
                    </div>
                    <div className='p-4 grid'>
